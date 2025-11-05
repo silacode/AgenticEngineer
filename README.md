@@ -57,5 +57,5 @@ The crewAI agents have generated a trading account demo application with a Gradi
    - Buy and sell shares (AAPL, TSLA, GOOGL)
    - View account statements, holdings, and transaction history
 
-![Generated UI Screenshot](Screenshot 2025-11-05 at 6.29.31 PM.png)
-![Generated UI Screenshot](Screenshot 2025-11-05 at 6.29.50 PM.png)
+![Generated UI Screenshot](images/UI_1.png.png)
+![Generated UI Screenshot](images/UI_2.png.png)
