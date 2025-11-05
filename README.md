@@ -1,3 +1,4 @@
+
 # EngineeringTeam Crew
 
 Welcome to the EngineeringTeam Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
@@ -37,18 +38,24 @@ $ crewai run
 
 This command initializes the engineering_team Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
 ## Understanding Your Crew
 
 The engineering_team Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
-## Support
+## Running the Generated Code
 
-For support, questions, or feedback regarding the EngineeringTeam Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+The crewAI agents have generated a trading account demo application with a Gradio UI. To run the generated application:
 
-Let's create wonders together with the power and simplicity of crewAI.
+1. Navigate to the output directory:ash
+   cd output
+   2. Run the application using uv:h
+   uv run app.py
+   3. The Gradio interface will launch and you can access it in your web browser. The application provides a trading account demo where you can:
+   - Create an account with initial deposit
+   - Deposit and withdraw cash
+   - Buy and sell shares (AAPL, TSLA, GOOGL)
+   - View account statements, holdings, and transaction history
+
+![Generated UI Screenshot](Screenshot 2025-11-05 at 6.29.31 PM.png)
+![Generated UI Screenshot](Screenshot 2025-11-05 at 6.29.50 PM.png)
